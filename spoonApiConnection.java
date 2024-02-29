@@ -8,7 +8,7 @@ import com.spoonacular.client.auth.*;
 import com.spoonacular.client.models.*;
 import com.spoonacular.DefaultApi;
 
-public class spoonAPIclient{
+public class spoonApiConnection{
     public static void main(String[] args){
         ApiClient defaultClient = Configuration.getDefaultApiClient();
         defaultClient.setBasePath("https://api.spoonacular.com");
